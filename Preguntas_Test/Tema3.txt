@@ -1,0 +1,14 @@
+
+1 Si queremos implementar una DMZ y solo disponemos de un switch, podremos implementar
+a) DMZ doble
+b) DMZ tradicional
+c) DMZ simple
+d) ninguno de ellos
+Respuesta correcta: B
+
+2 Las subredes se pueden crear con...
+a) switches
+b) hubs
+c) routers
+d) todas las anteriores
+Respuesta correcta: D

@@ -1,0 +1,14 @@
+
+1 Ante la sobrecarga de alguno de los componentes del servidor...
+a) se debe sustituir por otro más potente
+b) se debe dejar así
+c) se debe pensar si se deben añadir más componentes del mismo tipo para distribuir la carga
+d)
+Respuesta correcta: C
+
+2 Una disponibilidad del 99% significa que podemos esperar un downtime máximo de:
+a) 88 Horas al año
+b) 44 horas al año
+c) 88 minutos al año
+d) 526 minutos al año
+Respuesta correcta: A

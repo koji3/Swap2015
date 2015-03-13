@@ -1,0 +1,14 @@
+
+1 Una granja web...
+a) es más fácil de configurar que un servidor.
+b) es complejo de configurar, pero aporta escalabilidad.
+c) sigue sin solucionar el problema de pérdida de disponibilidad en caso de fallo hardware.
+d) es la opción preferible en todos los casos.
+Respuesta correcta: B
+
+2 A la hora de planificar un sitio web...
+a) podemos montar el servidor en una sola máquina e ir mejorando esta conforme aumente la carga.
+b) lo más barato es montar una granja web.
+c) hay que diseñar un sistema escalable que permita servir a un número creciente de usuarios.
+d) manteniendo un servidor de desarrollo y otro de producción eliminamos gran parte de los problemas derivados del álto tráfico.
+Respuesta correcta: C
