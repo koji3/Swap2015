@@ -27,15 +27,15 @@ La carga ahora se repartiría así:
 
 ![imagen] (https://github.com/koji3/Swap2015/raw/master/p3_comprobacion_balanceo2.png)
 
-## 1 Configurar una máquina e instalarle haproxy como balanceador de carga
+## 2 Configurar una máquina e instalarle haproxy como balanceador de carga
 
 Instalamos las herramientas necesarias en el sistema recién instalado
 
-    Ubuntu_server_balanceador# apt-get install haproxy joe
+    Ubuntu_server_balanceador# apt-get install haproxy
 
 Editamos el archivo /etc/haproxy/haproxy.cfg de esta manera:
 
-![imagen] (https://github.com/koji3/Swap2015/raw/master/p3_configuracion_haproxy.png)
+![imagen] (https://github.com/koji3/Swap2015/raw/master/p3_configuracion haproxy.png)
 
 Arrancamos el programa ( asegurándonos antes de que no tenemos ningún servicio acaparando el puerto 80 ) así:
 
