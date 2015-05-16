@@ -1,0 +1,17 @@
+1) La herramienta más apropiada a la hora de comprobar el rendimiento de un servidor o una granja web es:
+
+a) Apache Benchmark
+b) httperf
+c) JMeter
+d) Depende del contexto, no hay ninguna que sea siempre mejor.
+
+Correcta: d
+
+2) A la hora de realizar un benchmark...
+
+a) Este se debe ejecutar en la misma máquina que la que hace de servidor web
+b) Los resultados de cada herramienta siempre serán iguales
+c) Los resultados de todas las herramientas serán iguales
+d) Ninguna es correcta
+
+Correcta: d

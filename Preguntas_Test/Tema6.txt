@@ -1,0 +1,7 @@
+1) A la hora de defender nuestra granja web de amenazas
+a) No basta con securizar bien, sino que hay que estar atentos de nuevas vulnerabilidades que se puedan publicar
+b) Basta con configurar correctamente el cortafuegos
+c) Se recomienda que el cortafuegos esté instalado en la máquina que actúe de balanceador
+d) A y C son correctas
+
+Correcta: A
