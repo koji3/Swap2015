@@ -41,8 +41,8 @@ python setup.py build
 python setup.py install
 ldconfig
 
-deluge-console "config -s allow_remote True"
-deluge-console "config allow_remote"
+mkdir /var/Descargas
+chmod -R 777 /var/Descargas
 
 # ##########################			#####################################
 
@@ -65,17 +65,22 @@ echo "ServerName $IP_SERVIDOR" | tee -a /etc/apache2/apache2.conf > /dev/null
 # Instalacion mysql
 apt-get --yes install mysql-server libapache2-mod-auth-mysql php5-mysql
 mysql_install_db
-mysql 
-echo 'CREATE DATABASE pydio;' | mysql
-echo "CREATE USER pydio@localhost IDENTIFIED BY 'password';" | mysql
-echo "GRANT ALL PRIVILEGES ON pydio . * TO pydio@localhost;" | mysql
+mysql_secure_installation
+echo 'CREATE DATABASE pydio;' | mysql -u root -p
+echo "CREATE USER pydio@localhost IDENTIFIED BY 'password';" | mysql -u root -p
+echo "GRANT ALL PRIVILEGES ON pydio . * TO pydio@localhost;" | mysql -u root -p
 
 
 # Inicio de los servicios:
 deluged
 deluge-web --fork
 service apache2 restart
+service webmin start
+
+deluge-console "config -s allow_remote True"
+deluge-console "config allow_remote"
+deluge-console "config --set download_location /var/Descargas"
 
 echo -e "\n\n\n\n\n\nAcceso Deluge web: http://$IP_SERVIDOR:8112 (pass: deluge)"
 echo "Pydio: http://$IP_SERVIDOR/pydio/index.php"
-echo "Webmin http://$IP_SERVIDOR:10000"
+echo "Webmin https://$IP_SERVIDOR:10000"
