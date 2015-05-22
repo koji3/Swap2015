@@ -30,6 +30,7 @@ Si tuviésemos 3 elementos en cada subsistema, la disponibilidad del sistema com
 	- tcpdump
 	- netstat
 	- nethogs
+
 ### Ejercicio T2.4
 **En este ejercicio debemos buscar diferentes tipos de productos: 
 (1) Buscar ejemplos de balanceadores software y hardware.
