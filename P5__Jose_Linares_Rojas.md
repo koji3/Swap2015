@@ -54,4 +54,5 @@ La última sentencia sirve para ver algunos parámetros de configuración que lu
 	
 	CHANGE MASTER TO MASTER_HOST='192.168.56.102', MASTER_USER='esclavo', MASTER_PASSWORD='esclavo', MASTER_LOG_FILE='mysql-bin.000002', MASTER_LOG_POS=501, MASTER_PORT=3306;
 
-Reiniciamos mysql e iniciamos el esclavo. A partir de ahora cualquier modificación en el maestro se volcará automáticamente en el esclavo.
+Reiniciamos mysql e iniciamos el esclavo. A partir de ahora cualquier modificación en el maestro se volcará automáticamente en el esclavo:
+![enter image description here](http://i.imgur.com/kXYjuk4.png)
