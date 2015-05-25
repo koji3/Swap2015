@@ -1,0 +1,15 @@
+1) Cual de los siguientes programas no es un servidor:
+a) Node.js
+b) Apache
+c) httperf
+d) thttpd
+
+Correcta: c
+
+2) A la hora de estudiar las necesidades de un servidor web:
+a) La red debe ser el elemento en el que más debemos centrarnos, al ser el más importante
+b) Lo crucial es que las operaciones de disco sean rápidas, pues es el cuello de botella de todo sistema.
+c) Se debe estudiar las necesidades concretas del servidor atendiendo al tráfico que va a recibir.
+d) Todos los elementos del sistema deben ser los mejores del mercado, a cualquier precio.
+
+Correcta: c

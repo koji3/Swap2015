@@ -1,0 +1,15 @@
+1) El sistema de almacenamiento se compone de...
+a) Base de datos
+b) Sistema de archivos
+c) Ambos
+d) Ninguno
+
+Correcta: C
+
+2) Un sistema RAID0...
+a) Replica los datos de un disco en otro
+b) Permite usar dos discos como si fuesen uno solo
+c) Permite acceder a los datos aunque falle uno de los discos
+d) A y B son correctas
+
+Correcta: c
